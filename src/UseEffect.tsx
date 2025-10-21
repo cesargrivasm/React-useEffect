@@ -6,7 +6,7 @@ const UseEffect = () => {
   useEffect(()=>{
    setCont(cont + 1);
    return ()=>{
-    console.log('cleanup!!');
+    console.log('desmontando el componente unMount component!!');
    }
   },[])
 
